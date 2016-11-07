@@ -1,7 +1,7 @@
 # ToDoList
 1. Open terminal (cmd)
 2. Installing Node.js (cmd: npm install)
-3.Installing http-server globally (cmd: npm install http-server -g)
+3. Installing http-server globally (cmd: npm install http-server -g)
 4. Work locally
 5. In the terminal go to the local location of the project
 6. Installing Angular.js (cmd: npm install --save angular@1.5)
