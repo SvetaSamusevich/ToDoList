@@ -1,0 +1,14 @@
+﻿<div ng-controller="ToDoContr">
+  <!--list of todos -->
+    <div ng-repeat="todo in todos">
+		<input type="checkbox" ng-model="todo.done"/>
+		<input type="text" ng-model="todo.text"/>
+		<a href="" ng-click="move($index,'up')">up </a>
+		<a href="" ng-click="move($index,'down')">down </a>
+		<a href="" ng-click="removeTodo($index)">remove</a>
+	</div>
+  <!-- add todo form -->
+	<form ng-submit="addTodo()">
+	    <input type="text" ng-model="todoText"/>
+		<input type="submit" value="add"/>
+	</div>
